@@ -8,6 +8,35 @@
 
 int main()
 printf ("Super Trunfo Países \n");
+int codigodacidade, populacao, numeropontosturisticos;
+char nome [50];
+float area, pib;
+
+printf("Insira o código da cidade: \n");
+scanf("%d" &codigodacidade);
+
+printf("Insira o nome da cidade: \n");
+scanf("%s" &nome);
+
+printf("Insira a população da cidade");
+scanf("%d" &populacao);
+
+printf("Insira a área da cidade: \n");
+scanf("%f" &area);
+
+printf("Insira o PIB da cidade: \n");
+scanf("%f" &pib);
+
+printf("Insira o número de pontos turísticos: \n");
+scanf("%d" &numeropontosturisticos);
+
+printf("Código da Cidade: %d \n" , codigodacidade);
+printf("Nome da Cidade: %s \n" , nome);
+printf("População: %d \n" , populacao);
+printf("Área: %f \n" , area);
+printf("PIB: %f \n" , pib);
+printf("Número de pontos turísticos: \n" , numeropontosturisticos);
+
 
  {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.

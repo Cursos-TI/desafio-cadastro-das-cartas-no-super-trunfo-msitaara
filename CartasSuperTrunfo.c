@@ -6,39 +6,41 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 
-int main()
+int main(){
 printf ("Super Trunfo Países \n");
-int codigodacidade, populacao, numeropontosturisticos;
+
+int codigo;
+int populacao;
+int numeropontosturisticos;
 char nome [50];
-float area, pib;
+float area;
+float pib;
 
 printf("Insira o código da cidade: \n");
-scanf("%d" &codigodacidade);
+scanf("%d" , &codigo);
 
 printf("Insira o nome da cidade: \n");
-scanf("%s" &nome);
+scanf("%s" , &nome);
 
-printf("Insira a população da cidade");
-scanf("%d" &populacao);
+printf("Insira a população da cidade: \n");
+scanf("%d" , &populacao);
 
 printf("Insira a área da cidade: \n");
-scanf("%f" &area);
+scanf("%f" , &area);
 
 printf("Insira o PIB da cidade: \n");
-scanf("%f" &pib);
+scanf("%f" , &pib);
 
 printf("Insira o número de pontos turísticos: \n");
-scanf("%d" &numeropontosturisticos);
+scanf("%d" , &numeropontosturisticos);
 
-printf("Código da Cidade: %d \n" , codigodacidade);
+printf("Código da Cidade: %d \n" , codigo);
 printf("Nome da Cidade: %s \n" , nome);
 printf("População: %d \n" , populacao);
 printf("Área: %f \n" , area);
 printf("PIB: %f \n" , pib);
-printf("Número de pontos turísticos: \n" , numeropontosturisticos);
+printf("Número de pontos turísticos: %d \n" , numeropontosturisticos);
 
-
- {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
@@ -50,5 +52,6 @@ printf("Número de pontos turísticos: \n" , numeropontosturisticos);
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    return 0;
+return 0;
+
 }
